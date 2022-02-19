@@ -30,6 +30,7 @@ window.onload = function() {
   if (random == 0 || random == 1) {
     aux[[0]].classList.add("red");
     aux[[1]].classList.add("red");
+    aux2.classList.add("red");
   }
   aux[0].innerHTML = pinta[random];
   aux[1].innerHTML = pinta[random];
